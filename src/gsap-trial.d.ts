@@ -3,7 +3,7 @@ declare module 'gsap-trial/SplitText' {
     chars: HTMLElement[];
     words: HTMLElement[];
     lines: HTMLElement[];
-    constructor(target: string | Element | Element[], vars?: object);
+    constructor(target: string | string[] | Element | Element[], vars?: object);
     revert(): void;
   }
 }
